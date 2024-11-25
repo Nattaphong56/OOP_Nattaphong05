@@ -1,5 +1,5 @@
 try:
-    num = int(input("ใส่แม่ศุตรคูณ : "))
+    num = int(input("ใส่แม่สูตรคูณ : "))
     if num == 0:
         raise Exception()
     else:
