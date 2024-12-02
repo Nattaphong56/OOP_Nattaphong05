@@ -1,11 +1,7 @@
-try:
-    num = int(input("ใส่แม่สูตรคูณ : "))
-    if num == 0:
-        raise Exception()
-    else:
-        for i in range(1,13,1):
-            print(f'{num} x {i} = {num*i}')
-except ValueError:
-    print("ใส่เฉพาะตัวเลข")
-except:
-    print("ห้ามใส่ 0")
+print("โปรแกรมคำนวณค่า BMI")
+a = float(input("ใส่ค่าส่วนสูง (เซนติเมตร): "))  
+b = float(input("ใส่ค่าน้ำหนัก (กิโลกรัม): "))  
+m = b / 100 
+bmi = a / (m** 2)  
+print(f"BMI ของคุณคือ: {bmi:.2f}")  
+ 
